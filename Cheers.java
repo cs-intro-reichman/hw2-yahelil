@@ -12,7 +12,7 @@ public class Cheers {
                         an_a = "an";
                     }
                     else{
-                        an_a = "a";
+                        an_a = "a ";
                     }
                 System.out.println("Give me " + an_a + ' ' + c + ": " + c + '!');
             }

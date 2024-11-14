@@ -6,10 +6,10 @@ public class Cheers {
             String lettersForAn = "AEFHILMNORSX";
             String an_a;
             if (lettersForAn.indexOf(cheer_name.charAt(0)) != -1){
-                an_a = "an";
+                an_a = "a";
             }
             else{
-                an_a = "a";
+                an_a = "an";
             }
             for (int index = 0; index < cheer_name.length(); index++) {
                 char c = cheer_name.charAt(index);
